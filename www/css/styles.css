@@ -4,8 +4,12 @@
 }
 #logo {
 	height: 80px;
-	border: 1px solid red;
+	background-color: #BC8B60;
 }
+	#logo img {
+		height: 80px;
+		float: left;
+	}
 #cta {
 	height: 500px;
 	border: 1px solid red;
