@@ -62,9 +62,9 @@
 			text-align: center;
 			line-height: 1.8;
 			background: url('../images/font-bg.png');
-			border-radius: 3px;
-			-moz-border-radius: 3px;
-			-webkit-border-radius: 3px;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
 			
 		}
 		.big-font {
@@ -74,19 +74,26 @@
 		.first-inner .right {
 			float: right;
 			padding-top: 130px;
-			width: 300px;
+			width: 400px;
 		}
 		.right form {
-			background: url('../images/form-bg.png');
+			background: url('../images/font-bg.png');
 			padding: 10px 5px;
-			border-radius: 3px;
-			-moz-border-radius: 3px;
-			-webkit-border-radius: 3px;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
 		}
-		span.form-title {
+		.right h2 {
 			display: block;
-			font-size: 20px;
-			color: #FFFFFF;
+			text-align: center;
+			margin-bottom: 20px;
+			color :#383737;
+			font-size: 34px;
+		}
+		.right input {
+			height: 30px;
+			width: 390px;
+			margin-bottom: 10px;
 		}
 #second {
 	height: 150px;
